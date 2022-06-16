@@ -7,7 +7,7 @@ import os.path
 _keys = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
 _chars = [",", ".", "!", "?", ";", ":", "'", "`", "~", "^", "&", "*", "(", ")", "[", "]", "{", "}", "<", ">", "/", "|", "=", "+", "-", "_", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"]
 
-_filePath = input("Enter the file path don't miss the \ or /: ")
+_filePath = input("Enter the folder path who the password will be save. Don't miss the \ or /: ")
 _passwordChars = int(input("Enter the characters you want to use for the password: "))
 
 os.path.normcase(_filePath)
